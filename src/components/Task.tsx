@@ -1,3 +1,5 @@
+import { input } from "../styles/task.css";
+
 type Props = {
   task: { id: string; title: string; state: string };
   onArchiveTask: () => void;
@@ -10,7 +12,7 @@ const Task = ({
 }: Props) => {
   return (
     <div>
-      <input type="text" value={title} readOnly={true} />
+      <input type="text" value={title} readOnly={true} className={input} />
     </div>
   );
 };

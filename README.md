@@ -1,1 +1,1 @@
-# React + TypeScript + Vite + Storybook 연습 Repository입니다.
+# React + TypeScript + Vite + Storybook + Vanilla Extract 연습 Repository입니다.
